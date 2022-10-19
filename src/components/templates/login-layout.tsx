@@ -7,12 +7,12 @@ const LoginLayout = ({ children }) => {
         <div
           className="flex flex-col items-center"
           style={{
-            background: "linear-gradient(73.29deg, #7C53FF 0%, #F796FF 100%)",
+            background: "linear-gradient(73.29deg, #E11D48 0%, #F796FF 100%)",
           }}
         >
           {children}
           <div className="text-grey-0 inter-base-regular pb-12">
-            © Medusa Commerce <span>&#183;</span>{" "}
+            © Rudy Store <span>&#183;</span>{" "}
             <a
               style={{ color: "inherit", textDecoration: "none" }}
               href="mailto:hello@medusajs.com"

@@ -5,6 +5,7 @@ import LoginCard from "../components/organisms/login-card"
 import ResetTokenCard from "../components/organisms/reset-token-card"
 import SEO from "../components/seo"
 import LoginLayout from "../components/templates/login-layout"
+import Logo from "../components/fundamentals/ruby"
 
 const LoginPage = () => {
   const [resetPassword, setResetPassword] = useState(false)
@@ -22,7 +23,8 @@ const LoginPage = () => {
           )}
         >
           <div className="flex flex-col pt-12 w-full px-[120px] items-center">
-            <MedusaIcon />
+            <Logo />
+
             {resetPassword ? (
               <ResetTokenCard goBack={() => setResetPassword(false)} />
             ) : (
